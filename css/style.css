@@ -1,0 +1,74 @@
+body {
+	background-image: url(http://1.bp.blogspot.com/-EVYipXIcruM/Vq4N5naIjEI/AAAAAAAAANs/qzv1-zgEmqU/s1600/1.jpg);
+	background-color: #666;
+	background-repeat: no-repeat;
+	font-family: Comic Sans MS;
+}
+td {
+	background-image: url(https://i.stack.imgur.com/p9mUO.jpg);
+	background-position: center;
+	background-color: #888;
+	border:1px solid black;
+}
+td img {
+	transform: rotateY(-180deg);
+}
+table {
+	background-color: transparent;
+}
+#stats div{
+	display: inline-block;
+}
+
+.things{
+	background-color:#777;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	height: 50px;
+	width: 50px;
+	padding: 10px;
+	margin-bottom: 4px;
+	border:2px solid #444;
+	border-radius:30%;
+}
+.things span {
+	color : #fff;
+}
+#win{
+	text-align: center;
+	width: 400px;
+	background-color: #888;
+	border:2px solid #444;
+	border-radius:10%;
+	padding-bottom: 5px;
+	margin:10px;
+}
+#win button{
+	text-align: center;
+	border:1px solid #444;
+	border-radius: 10%;
+	background-color: #777;
+	width: 100px;
+	height: 30px;
+	cursor: pointer;
+}
+#conteiner{
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+}
+.hidden{
+	opacity: 0;
+	transition: .5s 0s all;
+	transform: rotateY(-180deg);
+
+}
+.chosen{
+	transition: 1s 0s all;
+	transform: rotateY(0deg);
+}
+.correct{
+	opacity: 0;
+	transition: 0s .5s all;
+}
